@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nlb-sample-service
-  namespace: nlb-sample-app
+  name: petclinic-nlb
+  namespace: default
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-type: external
     service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: ip
