@@ -13,9 +13,9 @@
                 app: was
             spec:
               containers:
-              - image: 005040503934.dkr.ecr.ap-northeast-2.amazonaws.com/testcicd:97
+              - image: 005040503934.dkr.ecr.ap-northeast-2.amazonaws.com/testcicd:98
                 name: petclinic
                 ports:
                 - name: tcp
-                  containerPort: 80
+                  containerPort: 8080
         
