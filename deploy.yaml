@@ -13,7 +13,7 @@
                 app: was
             spec:
               containers:
-              - image: 005040503934.dkr.ecr.ap-northeast-2.amazonaws.com/testcicd:98
+              - image: 005040503934.dkr.ecr.ap-northeast-2.amazonaws.com/testcicd:99
                 name: petclinic
                 ports:
                 - name: tcp
